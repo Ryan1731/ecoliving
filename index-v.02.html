@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | EcoLiving</title>
+    <link rel="icon" type="image/x-icon" href="images/ecoliving.svg">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/517e100b5b.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    -->
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:bold">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container" id="headerContainer">
+            <div class="logo">
+                <img src="images/ecoliving.svg" id="ecolivingLogoIcon" alt="EcoLiving Logo Icon">
+                <h1 class="website-title">EcoLiving</h1>
+            </div>
+            <div class="hamburger-icon" id="hamburgerIcon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <div class="navigation-container" id="navigationContainer">
+                <div class="nav">
+                    <ul>
+                        <li class="current"><a href="#" class="white">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="shopping-cart-container">
+                    <a href="#"><img src="images/shopping-cart.svg" id="shoppingCart" alt="Cart"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-container">
+            <div class="parallax-forest-img">
+                <div class="hero-text">
+                    <h2>Embrace a Sustainable Lifestyle with EcoLiving</h2>
+                    <p>Discover our wide range of eco-friendly products that help you make a positive impact on the environment.</p>
+                    <button>Shop Now <img src="images/right-arrow-long.svg" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories Section -->
+    <section id="productCategories">
+        <div class="pc-container">
+            <h2>Our Products</h2>
+            <div class="centered-green-line green-line" style="margin-bottom: 40px;"></div>
+                <div class="grid-container">
+                    <div class="content-card">
+                            <img src="images/Eco-friendly Kitchenware.png" alt="Eco-friendly Kitchenware">
+                            <div class="content-card-body">
+                                <h3>Eco-friendly Kitchenware</h3>
+                                <div class="green-line"></div>
+                                <p>Environmentally Friendly Essentials</p>
+                            </div>
+                            <a href="#"><button>Browse All <img src="images/circle-arrow-up.svg"></button></a>
+                        </div>
+                        <div class="content-card">
+                            <img src="images/Natural Home Goods.png" alt="Natural Home Goods">
+                            <div class="content-card-body">
+                                <h3>Natural Home Goods</h3>
+                                <div class="green-line"></div>
+                                <p>Sustainable Living Essentials</p>
+                            </div>
+                            <a href="#"><button>Browse All <img src="images/circle-arrow-up.svg"></button></a>
+                        </div>
+                        <div class="content-card">
+                            <img src="images/Sustainable Fashion.png" alt="Sustainable Fashion">
+                            <div class="content-card-body">
+                                <h3>Sustainable Fashion</h3>
+                                <div class="green-line"></div>
+                                <p>Fashion with Purpose</p>
+                            </div>
+                            <a href="#"><button>Browse All <img src="images/circle-arrow-up.svg"></button></a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section id="ourStory">
+        <div class="os-container">
+            <div class="os-grid-container">
+                <div class="os-grid-svg-container">
+                    <div class="svg-container">
+                    <!-- Green Blob SVG -->
+                    <img id="greenBlob" src="images/green blob.svg" alt="">
+                    <!-- Plant SVG -->
+                    <img id="plant" src="images/plant.svg" alt="">
+                </div>
+                </div>
+                <div class="os-grid-our-story">
+                    <h2>Our Story</h2>
+                    <div class="green-line"></div>
+                    <div class="os-text">
+                        <p>At EcoLiving, we are passionate about creating a sustainable future.</p>
+                        <p>Our journey began with a simple idea - to offer eco-friendly products that make a positive impact on the environment without compromising style or quality.</p>
+                        <p>With each product we curate, we strive to promote a greener lifestyle and inspire others to join us in protecting our planet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="wrapper">
+            <h2>What Our Customers Say</h2>
+            <div class="light-green-line"></div>
+            <div class="testimonial-container" id="testimonial-container">
+                <!-- Content added dyanmically using JavaScript -->
+            </div>
+            <img id="openQuotes" src="images/open-quotes.svg" alt="">
+        </div>
+        <img id="prev" src="images/testimonial-prev.svg" alt="">
+        <img id="next" src="images/testimonial-next.svg" alt="">
+        <div id="nav-dots" class="nav-dots"></div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contactForm">
+        <div class="cf-container">    
+            <h2>Get in Touch</h2>
+            <div class="green-line"></div>
+            <div class="contact-form-box">
+                <form action="" method="get">
+                    <div class="cf-grid-container">
+                        <div class="user-information">
+                            <div>
+                                <label for="firstName">First name</label>
+                                <input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div>
+                                <label for="lastName">Last name</label>
+                                <input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="user-message">
+                            <label for="firstName">Message</label>
+                            <textarea name="message" id="message" rows="4" cols="50"></textarea>
+                        </div>
+                        <div class="user-submit-button">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-grid-container">
+                <div class="footer-logo">
+                    <div class="fl-flexbox">
+                        <div class="f-ecoliving-logo-icon">
+                            <img src="images/ecoliving.svg" alt="">
+                        </div>
+                        <div class="f-ecoliving-logo-text">
+                            <p>EcoLiving</p>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="footer-opening-hours">
+                    <p>
+                        <b>Opening Hours</b>
+                        <br>
+                        Monday - Friday     10.30am - 7.00pm
+                        <br>
+                        Saturday                10.30am - 3.30pm
+                        <br>
+                        Sunday or PH        By appointment only
+                    </p>
+                </div>
+                <div class="footer-address">
+                    <p>
+                        <b>Address</b>
+                        <br>
+                        50 Lorong Ah Soo
+                        <br>
+                        Singapore 536701
+                    </p>
+                </div>
+                <div class="footer-contact">
+                    <p>
+                        <b>Contact</b>
+                        <br>
+                        +65 8854 9638
+                        <br>
+                        info@ecoliving.sg
+                    </p>
+                    <span>
+                        <i class="fa-brands fa-instagram fa-lg footer-sm-icons"></i>
+                        <i class="fa-brands fa-tiktok fa-lg footer-sm-icons"></i>
+                        <i class="fa-brands fa-facebook fa-lg footer-sm-icons"></i>
+                    </span>
+                </div>
+                <div class="footer-links">
+                    <a href="#">Home |</a>
+                    <a href="#">About Us |</a>
+                    <a href="#">Blog |</a>
+                    <a href="#">Contact |</a>
+                    <a href="#">Shop Now</a>
+                </div>
+                <hr class="footer-line-2">
+                <div class="footer-copyright-text">
+                    <p>&#169 2023 Ecoliving. All rights reserved.</p>
+                </div>
+            </div>  
+        </div>
+    </footer>
+
+    <script>
+        //Testimonial Data
+        const testimonials = [
+            {
+                name: "John Doe",
+                testimonial: 
+                '"I love the products from EcoLiving! They are not only eco-friendly but also of great quality. Highly recommended!"',
+            },
+            {
+                name: "Jane Smith",
+                testimonial: 
+                "EcoLiving has exceeded my expectations. Their customer service is exceptional, and their products have made a positive impact on my daily life.",
+            },
+        ];
+
+        //Current Slide
+        let i = 0;
+        //Total Slide
+        let j = testimonials.length;
+
+        let testimonialContainer = document.getElementById("testimonial-container");
+        let nextBtn = document.getElementById("next");
+        let prevBtn = document.getElementById("prev");
+        let navDotsContainer = document.getElementById("nav-dots") 
+
+        nextBtn.addEventListener("click", () => {
+            i = (j + i + 1) % j;
+            displayTestimonial();
+        });
+
+        prevBtn.addEventListener("click", () => {
+            i = (j + i -1 )
+            displayTestimonial();
+        })
+
+        function updateNavDots() {
+            navDotsContainer.innerHTML = ""; //clear existing nav-dots
+
+            for (let k = 0; k < j; k++) {
+                //Create a dot for each run
+                let dot = document.createElement("span");
+
+                //Style the dot
+                dot.classList.add("dot");
+
+                //Assign active class if testimonial is current page
+                if (k === i) {
+                    dot.classList.add("active-dot");
+                }
+
+                dot.addEventListener("click", () => {
+                    i = k;
+                    displayTestimonial();
+                });
+
+                navDotsContainer.appendChild(dot);
+            }
+        }
+        
+
+        function displayTestimonial() {
+            testimonialContainer.innerHTML = `
+            <p id="testimonialName">${testimonials[i].name}</p>
+            <p id="testimonialText">${testimonials[i].testimonial}</p>
+            `
+            ;
+            updateNavDots(); //Call function to update nav-dots
+        }
+        window.onload = displayTestimonial;
+    </script>
+    <script>
+        var hamburgerIcon = document.getElementById("hamburgerIcon");
+    
+        hamburgerIcon.addEventListener("click", () => {
+            toggleMenu();
+        });
+    
+        function toggleMenu() {
+            var navigationContainer = document.getElementById("navigationContainer");
+            navigationContainer.classList.toggle("nav-active");
+    
+            var headerContainer = document.getElementById("headerContainer");
+        }
+    </script>
+</body>
+</html>
